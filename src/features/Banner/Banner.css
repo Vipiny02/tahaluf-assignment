@@ -1,0 +1,45 @@
+.banner-container {
+  position: relative; /* This makes the container a positioning context for the absolutely positioned image */
+  background-image: url("../../../public/assets/banner.png");
+  height: 105px;
+  padding: 50px 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #fff; /* Adjust text color if needed */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  margin: 50px 29px;
+}
+
+.text-content {
+  max-width: 500px; /* Adjust as needed */
+  text-align: left;
+  padding: 0px 25px;
+  font-size: 30px;
+}
+
+.text-content h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.text-content p {
+  margin-top: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
+  color: lightgray;
+  font-family: sans-serif;
+}
+
+.decorative-image {
+  position: absolute;
+  top: -28%;
+  right: 0;
+  width: in; /* Adjust size as needed */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  height: -webkit-fill-available;
+}
