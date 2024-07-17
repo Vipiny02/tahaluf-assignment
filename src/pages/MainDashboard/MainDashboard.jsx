@@ -44,11 +44,10 @@ const Dashboard = ({ name }) => {
   return (
     <div className="dashboard-container">
       <p style={{ paddingLeft: "40px" }}>Welcome! {name}</p>
-      <div class="shape">
-          <div class="circle"></div>
-        </div>
+      <div className="shape">
+        <div className="circle"></div>
+      </div>
       <div className="parent-div">
-        
         <div className="child-div">
           <div className="parent-div-content-1">
             <div className="left-div">

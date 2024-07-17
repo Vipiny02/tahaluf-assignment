@@ -69,9 +69,9 @@ const Header = ({ name }) => {
         </button>
         {dropdownToggle && (
           <div className="dropdown-content-country">
-            {getCountryOps(header.engCountry)}
+            {getCountryOps(header.engCountry, "/united-kingdom.png")}
             <hr></hr>
-            {getCountryOps(header.uaeCountry)}
+            {getCountryOps(header.uaeCountry, "./united-arab-emirates.png")}
           </div>
         )}
         <button className="notifications-icon">

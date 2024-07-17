@@ -28,7 +28,8 @@
   align-items: center;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-y: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
 }
 
 .child-div-1 {
